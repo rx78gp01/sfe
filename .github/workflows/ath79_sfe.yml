@@ -53,7 +53,7 @@ jobs:
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
     - name: Cache OpenWrt
-      uses: actions/cache@v3
+      uses: rx78gp01/cache@v3
       env:
         cache-name: cache-openwrt
       with:
